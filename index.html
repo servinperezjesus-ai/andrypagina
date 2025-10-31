@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CETis No. 47 – Gómez Palacio | ¡Tu futuro técnico comienza hoy!</title>
+    <style>
+        /* Paleta institucional */
+        :root {
+            --azul-oscuro: #00264d;
+            --azul-medio: #0059b3;
+            --azul-claro: #4d88ff;
+            --celeste: #cce0ff;
+            --blanco: #ffffff;
+            --gris-fondo: #f2f6fa;
+            --gris-texto: #333333;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, sans-serif;
+            background-color: var(--gris-fondo);
+            color: var(--gris-texto);
+        }
+
+        header {
+            background: linear-gradient(90deg, var(--azul-oscuro), var(--azul-medio));
+            color: var(--blanco);
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        nav {
+            background-color: var(--azul-medio);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        nav a {
+            color: var(--blanco);
+            text-decoration: none;
+            padding: 15px 25px;
+            display: block;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: var(--azul-oscuro);
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: var(--blanco);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--azul-oscuro);
+            border-left: 6px solid var(--azul-claro);
+            padding-left: 12px;
+        }
+
+        .hero {
+            background-image: linear-gradient(rgba(0,38,77,0.7), rgba(0,38,77,0.7)),
+                              url('https://upload.wikimedia.org/wikipedia/commons/6/65/CETis_logo.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 160px 20px;
+            border-radius: 0;
+        }
+
+        .hero h1 {
+            font-size: 2.8em;
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: var(--azul-claro);
+            color: var(--blanco);
+            padding: 14px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: var(--azul-medio);
+        }
+
+        iframe {
+            width: 100%;
+            height: 420px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: var(--celeste);
+            margin: 10px 0;
+            padding: 12px;
+            border-left: 5px solid var(--azul-medio);
+        }
+
+        form input, form textarea, form select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+
+        footer {
+            background-color: var(--azul-oscuro);
+            color: var(--blanco);
+            text-align: center;
+            padding: 25px 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CETis No. 47 – Gómez Palacio, Dgo.</h1>
+    <p>Centro de Estudios Tecnológicos Industriales y de Servicios | ¡Formando técnicos con visión y talento!</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#historia">Historia</a>
+    <a href="#ubicacion">Ubicación</a>
+    <a href="#carreras">Carreras</a>
+    <a href="#talleres">Talleres Recreativos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio" class="hero">
+    <h1>¡Construye tu futuro técnico en el CETis 47!</h1>
+    <p>Estudia una carrera técnica, aprende con práctica y teoría, y prepárate para un futuro brillante en tecnología, industria y servicios.</p>
+    <a href="#contacto" class="btn">Pide más información</a>
+</section>
+
+<section id="historia">
+    <h2>Nuestra Historia</h2>
+    <p>El CETis No. 47 fue fundado en 1979 en la ciudad de Gómez Palacio, Durango, como parte del sistema educativo federal de educación tecnológica. Desde su creación, se ha destacado por su compromiso con la excelencia académica y la formación integral de jóvenes con espíritu técnico y emprendedor.</p>
+    <p>En más de cuatro décadas, el plantel ha egresado a miles de estudiantes que hoy contribuyen al desarrollo industrial, comercial y tecnológico de la Comarca Lagunera y del país.</p>
+    <p>Además de su formación técnica, el CETis 47 impulsa la cultura, el deporte, la ciencia y la participación juvenil en concursos de innovación y robótica, siendo reconocido por su equipo de robótica <strong>Techno R4v7ns</strong>.</p>
+</section>
+
+<section id="ubicacion">
+    <h2>Ubicación Exacta</h2>
+    <p>📍 <strong>Dirección:</strong> Calzada Lázaro Cárdenas S/N, Col. Primero de Cobián, Gómez Palacio, Durango, México.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.726875430312!2d-103.485815!3d25.569926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x867a4dbc8e18c5ef%3A0x3f6e8f6d4ec879d!2sCETis%2047!5e0!3m2!1ses!2smx!4v1700000000000" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section id="carreras">
+    <h2>Carreras Técnicas</h2>
+    <p>El CETis 47 ofrece formación en las siguientes especialidades:</p>
+    <ul>
+        <li><strong>Programación:</strong> desarrollo de software, aplicaciones web y soluciones informáticas.</li>
+        <li><strong>Contabilidad:</strong> registro, análisis e interpretación financiera para empresas.</li>
+        <li><strong>Administración de Recursos Humanos:</strong> gestión de talento, liderazgo y organización empresarial.</li>
+        <li><strong>Control de Calidad:</strong> procesos de producción con enfoque en mejora continua.</li>
+        <li><strong>Mantenimiento Industrial:</strong> operación, reparación y control de equipos industriales.</li>
+        <li><strong>Refrigeración y Climatización:</strong> instalación y mantenimiento de sistemas de aire acondicionado y refrigeración.</li>
+    </ul>
+</section>
+
+<section id="talleres">
+    <h2>Talleres Recreativos</h2>
+    <p>Además de su formación técnica, el CETis 47 impulsa el desarrollo integral de sus alumnos a través de talleres artísticos, deportivos y culturales.</p>
+    <ul>
+        <li>🎸 <strong>Taller de Música:</strong> aprende guitarra, bajo, batería y canto.</li>
+        <li>🎭 <strong>Taller de Teatro y Expresión Escénica:</strong> desarrolla tu creatividad y confianza.</li>
+        <li>🏀 <strong>Equipos Deportivos:</strong> fútbol, basquetbol, voleibol y atletismo representando al plantel en torneos regionales.</li>
+        <li>🎨 <strong>Artes Plásticas y Dibujo Técnico:</strong> estimula tu lado artístico y precisión visual.</li>
+        <li>📸 <strong>Fotografía y Medios:</strong> producción de contenido audiovisual y difusión escolar.</li>
+        <li>🧠 <strong>Club de Ciencia y Robótica:</strong> desarrollo de proyectos tecnológicos e innovación.</li>
+        <li>♟️ <strong>Taller de Ajedrez:</strong> mejora tu concentración y pensamiento estratégico.</li>
+        <li>💃 <strong>Danza y Baile Moderno:</strong> muestra tu talento en los festivales y eventos culturales del CETis.</li>
+    </ul>
+</section>
+
+<section id="contacto">
+    <h2>Contacto y Más Información</h2>
+    <p>Si deseas más información sobre las inscripciones, becas o carreras, completa el siguiente formulario:</p>
+
+    <form onsubmit="alert('¡Gracias por tu interés! Pronto te contactaremos.'); return false;">
+        <label>Nombre completo:</label>
+        <input type="text" required>
+
+        <label>Correo electrónico:</label>
+        <input type="email" required>
+
+        <label>Teléfono:</label>
+        <input type="tel">
+
+        <label>Carrera técnica de interés:</label>
+        <select required>
+            <option value="">Selecciona...</option>
+            <option>Programación</option>
+            <option>Contabilidad</option>
+            <option>Administración de Recursos Humanos</option>
+            <option>Control de Calidad</option>
+            <option>Mantenimiento Industrial</option>
+            <option>Refrigeración y Climatización</option>
+        </select>
+
+        <label>Mensaje adicional:</label>
+        <textarea rows="5"></textarea>
+
+        <button type="submit" class="btn">Enviar solicitud</button>
+    </form>
+
+    <h3>Contacto Directo</h3>
+    <p>📞 Teléfono: 871 719 0866</p>
+    <p>📧 Correo: <a href="mailto:cetis047.dir@uemstis.sems.gob.mx">cetis047.dir@uemstis.sems.gob.mx</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 CETis No. 47 – Gómez Palacio, Durango.</p>
+    <p>Educación tecnológica al servicio de México | ¡Sé parte del cambio!</p>
+</footer>
+
+</body>
+</html>
+
+
+
